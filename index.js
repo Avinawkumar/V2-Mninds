@@ -21,9 +21,6 @@ validate() {
       throw new Error('Invalid alignment');
     }
 
-    if (isNaN(this.rows) || isNaN(this.columns) || this.rows <= 0 || this.columns <= 0 || !Number.isInteger(this.rows) || !Number.isInteger(this.columns)) {
-      throw new Error('Invalid count value');
-    }
   }
 
 
